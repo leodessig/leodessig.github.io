@@ -1,0 +1,14 @@
+{
+  "name": "Mapa de Villavicencio",
+  "version": "1.0.0",
+  "description": "Servicio OGC de Villavicencio",
+  "attribution": "OSM", 
+  "type": "baselayer",
+  "color": "#FFFFFF",
+  "format": "jpg",
+  "minzoom": "11",
+  "maxzoom": "15",
+  "bounds": "-73.8605458374601, 3.92774949548919, -73.09679818290181, 4.29224374133454",
+  "scale": "1",
+  "profile": "mercator"
+}
