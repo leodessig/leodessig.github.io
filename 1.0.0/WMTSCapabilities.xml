@@ -35,40 +35,13 @@
       </Style>
       <Format>image/jpeg</Format>
       <TileMatrixSetLink>
-        <TileMatrixSet>z8to17</TileMatrixSet>
+        <TileMatrixSet>z11to15</TileMatrixSet>
       </TileMatrixSetLink>
       <ResourceURL format="image/jpeg" resourceType="tile" template="http://leodessig.github.io/villavicencio/{TileMatrix}/{TileCol}/{TileRow}.jpg"/>
     </Layer>
     <TileMatrixSet>
-      <ows:Identifier>z8to17</ows:Identifier>
+      <ows:Identifier>z11to15</ows:Identifier>
       <ows:SupportedCRS>urn:ogc:def:crs:EPSG:6.18.3:3857</ows:SupportedCRS>
-      <TileMatrix>
-        <ows:Identifier>8</ows:Identifier>
-        <ScaleDenominator>2183915.093862178735</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>256</MatrixWidth>
-        <MatrixHeight>256</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>9</ows:Identifier>
-        <ScaleDenominator>1091957.546931089368</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>512</MatrixWidth>
-        <MatrixHeight>512</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>10</ows:Identifier>
-        <ScaleDenominator>545978.773465544684</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>1024</MatrixWidth>
-        <MatrixHeight>1024</MatrixHeight>
-      </TileMatrix>
       <TileMatrix>
         <ows:Identifier>11</ows:Identifier>
         <ScaleDenominator>272989.386732772342</ScaleDenominator>
@@ -114,25 +87,9 @@
         <MatrixWidth>32768</MatrixWidth>
         <MatrixHeight>32768</MatrixHeight>
       </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>16</ows:Identifier>
-        <ScaleDenominator>8530.918335399136</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>65536</MatrixWidth>
-        <MatrixHeight>65536</MatrixHeight>
-      </TileMatrix>
-      <TileMatrix>
-        <ows:Identifier>17</ows:Identifier>
-        <ScaleDenominator>4265.459167699568</ScaleDenominator>
-        <TopLeftCorner>-20037508.34278924 20037508.34278924</TopLeftCorner>
-        <TileWidth>256</TileWidth>
-        <TileHeight>256</TileHeight>
-        <MatrixWidth>131072</MatrixWidth>
-        <MatrixHeight>131072</MatrixHeight>
-      </TileMatrix>
     </TileMatrixSet>
   </Contents>
 </Capabilities>
+
+
 
