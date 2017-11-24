@@ -1,13 +1,3 @@
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "letter": "G",
-        "color": "blue",
-        "rank": "7",
-        "ascii": "71"
      {
   "type" : "FeatureCollection",
   "crs" : {
