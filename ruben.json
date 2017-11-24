@@ -1,4 +1,5 @@
-    {
+   
+{
   "type" : "FeatureCollection",
   "crs" : {
     "type" : "name",
@@ -999,3 +1000,17 @@
     }
   ]
 }
+map.data.setStyle(function(feature) {
+var color;
+var ascii = feature.getProperty('ascii');
+color = ascii > 0 & ascii < 2 ?
+ 'red' : ascii > 1 & ascii < 3?
+ 'yellow':ascii > 2 & ascii < 4?
+ 'green':ascii > 3 & ascii < 5?
+ 'blue':'orange';
+return {
+fillColor: color,
+strokeWeight: 1
+};
+
+ });
